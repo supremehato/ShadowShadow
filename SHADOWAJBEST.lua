@@ -70,6 +70,7 @@ local function validateKey(key, hwid)
                 key = key,
                 hwid = hwid,
                 username = Players.LocalPlayer.Name
+                key_type = "elite"
             })
         })
     end)
@@ -4844,6 +4845,7 @@ task.spawn(function()
     task.wait(2) -- Wait for game to fully load
     initializeESP()
 end)
+
 
 
 
